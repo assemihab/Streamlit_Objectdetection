@@ -1,7 +1,7 @@
 import streamlit as st
 import torch
 from PIL import Image
-#from ultralytics import YOLO
+from ultralytics import YOLO
 import time
 
 def modelDetection(model_path,image):
